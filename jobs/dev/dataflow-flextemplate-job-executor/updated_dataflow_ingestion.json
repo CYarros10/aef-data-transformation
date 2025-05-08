@@ -12,8 +12,8 @@
     "driverClassName": "org.postgresql.Driver",
     "connectionURL": "jdbc:postgresql://34.31.100.66:5432/postgres",
     "outputTable": "altostrat-aef-demo:aef_landing_sample_dataset.raw_suppliers",
-    "query": "SELECT * FROM suppliers",
-    "bigQueryLoadingTemporaryDirectory": "gs://altostrat-aef-demo-temp/jdbc_temp/suppliers/",
+    "query": "SELECT * FROM raw_transactions",
+    "bigQueryLoadingTemporaryDirectory": "gs://altostrat-aef-demo-temp/jdbc_temp/raw_transactions/",
     "username": "user1",
     "password": "changeme",
     "createDisposition": "CREATE_NEVER"
