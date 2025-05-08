@@ -11,9 +11,9 @@
     "driverJars": "gs://altostrat-aef-demo_aef_artifacts_bucket/jdbcjars/postgresql-42.7.3.jar",
     "driverClassName": "org.postgresql.Driver",
     "connectionURL": "jdbc:postgresql://34.31.100.66:5432/postgres",
-    "outputTable": "altostrat-aef-demo:aef_landing_sample_dataset.raw_suppliers",
+    "outputTable": "altostrat-aef-demo:aef_landing_sample_dataset.raw_transactions",
     "query": "SELECT * FROM raw_transactions",
-    "bigQueryLoadingTemporaryDirectory": "gs://altostrat-aef-demo-temp/jdbc_temp/raw_transactions/",
+    "bigQueryLoadingTemporaryDirectory": "gs://altostrat-aef-demo-temp/jdbc_temp/transactions/",
     "username": "user1",
     "password": "changeme",
     "createDisposition": "CREATE_NEVER"
